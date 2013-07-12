@@ -91,13 +91,16 @@
 			</dict>
 		</dict>
 
+		<!--- comments -->
 		<dict>
 			<key>name</key>
 			<string>Comments</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5D5D5D</string>
+				<string>#6e816e</string>
+				<key>bxackground</key>
+				<string>#292C2F</string>
 			</dict>
 			<key>scope</key>
 			<string>comment</string>
