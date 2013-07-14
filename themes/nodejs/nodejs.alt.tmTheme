@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+	NodeJS Sublime Theme
+	Author: Volkan Özçelik
+ -->
+<plist version="1.0">
+<dict>
+	<key>settings</key>
+	<array>
+		<dict>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#2D3033</string>
+				<key>caret</key>
+				<string>#BBBBBB</string>
+				<key>foreground</key>
+				<string>#c6c6c6</string>
+				<key>invisibles</key>
+				<string>#BFBFBF</string>
+				<key>lineHighlight</key>
+				<string>#26292b</string>
+				<key>selection</key>
+				<string>#214283</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Strings</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#94a2b6</string>
+			</dict>
+			<key>scope</key>
+			<string>string</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Number</string>
+			<key>scope</key>
+			<string>constant.numeric</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#94a2b6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Built-in constant</string>
+			<key>scope</key>
+			<string>constant.language</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>normal</string>
+				<key>foreground</key>
+				<string>#94a2b6</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Library object</string>
+			<key>scope</key>
+			<string>support.class, support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#B6DB51</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function name</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function.any-method</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#c6c6c6</string>
+			</dict>
+		</dict>
+
+		<!--- comments 5c6542 -->
+		<dict>
+			<key>name</key>
+			<string>Comments</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6d6d6d</string>
+			</dict>
+			<key>scope</key>
+			<string>comment</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B6DB51</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+			<key>scope</key>
+			<string>storage</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inherited class name</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B6DB51</string>
+				<key>fontStyle</key>
+				<string>normal</string>
+			</dict>
+			<key>scope</key>
+			<string>keyword</string>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Function parameter</string>
+			<key>scope</key>
+			<string>variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#c6c6c6</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+		</dict>
+	</array>
+	<key>name</key>
+	<string>nodejs</string>
+	<key>uuid</key>
+	<string>498c0a42-7c20-4a83-b815-9f40e5c6720b</string>
+	<key>colorSpaceName</key>
+	<string>sRGB</string>
+	<key>semanticClass</key>
+	<string>theme.dark.node</string>
+</dict>
+</plist>
