@@ -1,3 +1,12 @@
+>
+> **NOTE**
+>
+> This project is no longer maintained (at least for a while).
+> 
+> If you want to be the maintainer of it contact me at
+> me@volkan.io
+>
+
 themes
 ======
 
